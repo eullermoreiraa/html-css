@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: darkgreen;
+}
+
+a::after {
+    content: ' [link] ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkblue;
+}
+
